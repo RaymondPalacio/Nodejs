@@ -1,0 +1,76 @@
+/* General Body Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+    background-color: #c81616;
+}
+
+/* Header Styles */
+h1 {
+    color: #333;
+    margin-bottom: 20px;
+}
+
+/* Form Container Styles */
+.form-container {
+    margin-bottom: 20px;
+}
+
+/* Input and Button Styles */
+input[type="text"] {
+    padding: 8px;
+    margin-right: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    width: 200px;
+}
+
+button {
+    padding: 8px 15px;
+    border: none;
+    border-radius: 4px;
+    background-color: #007bff;
+    color: white;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+/* List Styles */
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+li {
+    background-color: #ffffff;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    margin-bottom: 10px;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* Link Styles */
+a {
+    color: #007bff;
+    text-decoration: none;
+    font-size: 14px;
+    margin-left: 10px;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Form Styles */
+form {
+    display: inline;
+}
